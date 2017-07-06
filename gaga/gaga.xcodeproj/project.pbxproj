@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00C9D8D1F0DD40E00701376 /* MSURuntimeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F00C9D8C1F0DD40E00701376 /* MSURuntimeTools.m */; };
+		F08839121F0CA09900F4E128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F08839111F0CA09900F4E128 /* main.m */; };
+		F08839151F0CA09900F4E128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F08839141F0CA09900F4E128 /* AppDelegate.m */; };
+		F08839181F0CA09900F4E128 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08839171F0CA09900F4E128 /* ViewController.m */; };
+		F088391B1F0CA09900F4E128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08839191F0CA09900F4E128 /* Main.storyboard */; };
+		F088391D1F0CA09900F4E128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F088391C1F0CA09900F4E128 /* Assets.xcassets */; };
+		F08839201F0CA09900F4E128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F088391E1F0CA09900F4E128 /* LaunchScreen.storyboard */; };
+		F088392B1F0CA09900F4E128 /* gagaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F088392A1F0CA09900F4E128 /* gagaTests.m */; };
+		F08839361F0CA09900F4E128 /* gagaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08839351F0CA09900F4E128 /* gagaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F08839271F0CA09900F4E128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08839051F0CA09800F4E128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F088390C1F0CA09800F4E128;
+			remoteInfo = gaga;
+		};
+		F08839321F0CA09900F4E128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08839051F0CA09800F4E128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F088390C1F0CA09800F4E128;
+			remoteInfo = gaga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F00C9D8B1F0DD40E00701376 /* MSURuntimeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSURuntimeTools.h; sourceTree = "<group>"; };
+		F00C9D8C1F0DD40E00701376 /* MSURuntimeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSURuntimeTools.m; sourceTree = "<group>"; };
+		F088390D1F0CA09800F4E128 /* gaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08839111F0CA09900F4E128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F08839131F0CA09900F4E128 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F08839141F0CA09900F4E128 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F08839161F0CA09900F4E128 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F08839171F0CA09900F4E128 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F088391A1F0CA09900F4E128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F088391C1F0CA09900F4E128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F088391F1F0CA09900F4E128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F08839211F0CA09900F4E128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08839261F0CA09900F4E128 /* gagaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gagaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F088392A1F0CA09900F4E128 /* gagaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gagaTests.m; sourceTree = "<group>"; };
+		F088392C1F0CA09900F4E128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08839311F0CA09900F4E128 /* gagaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gagaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08839351F0CA09900F4E128 /* gagaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gagaUITests.m; sourceTree = "<group>"; };
+		F08839371F0CA09900F4E128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F088390A1F0CA09800F4E128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08839231F0CA09900F4E128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F088392E1F0CA09900F4E128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F08839041F0CA09800F4E128 = {
+			isa = PBXGroup;
+			children = (
+				F088390F1F0CA09800F4E128 /* gaga */,
+				F08839291F0CA09900F4E128 /* gagaTests */,
+				F08839341F0CA09900F4E128 /* gagaUITests */,
+				F088390E1F0CA09800F4E128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F088390E1F0CA09800F4E128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F088390D1F0CA09800F4E128 /* gaga.app */,
+				F08839261F0CA09900F4E128 /* gagaTests.xctest */,
+				F08839311F0CA09900F4E128 /* gagaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F088390F1F0CA09800F4E128 /* gaga */ = {
+			isa = PBXGroup;
+			children = (
+				F08839131F0CA09900F4E128 /* AppDelegate.h */,
+				F08839141F0CA09900F4E128 /* AppDelegate.m */,
+				F08839161F0CA09900F4E128 /* ViewController.h */,
+				F08839171F0CA09900F4E128 /* ViewController.m */,
+				F08839191F0CA09900F4E128 /* Main.storyboard */,
+				F088391C1F0CA09900F4E128 /* Assets.xcassets */,
+				F088391E1F0CA09900F4E128 /* LaunchScreen.storyboard */,
+				F08839211F0CA09900F4E128 /* Info.plist */,
+				F08839101F0CA09900F4E128 /* Supporting Files */,
+				F00C9D8B1F0DD40E00701376 /* MSURuntimeTools.h */,
+				F00C9D8C1F0DD40E00701376 /* MSURuntimeTools.m */,
+			);
+			path = gaga;
+			sourceTree = "<group>";
+		};
+		F08839101F0CA09900F4E128 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F08839111F0CA09900F4E128 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F08839291F0CA09900F4E128 /* gagaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F088392A1F0CA09900F4E128 /* gagaTests.m */,
+				F088392C1F0CA09900F4E128 /* Info.plist */,
+			);
+			path = gagaTests;
+			sourceTree = "<group>";
+		};
+		F08839341F0CA09900F4E128 /* gagaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F08839351F0CA09900F4E128 /* gagaUITests.m */,
+				F08839371F0CA09900F4E128 /* Info.plist */,
+			);
+			path = gagaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F088390C1F0CA09800F4E128 /* gaga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F088393A1F0CA09900F4E128 /* Build configuration list for PBXNativeTarget "gaga" */;
+			buildPhases = (
+				F08839091F0CA09800F4E128 /* Sources */,
+				F088390A1F0CA09800F4E128 /* Frameworks */,
+				F088390B1F0CA09800F4E128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gaga;
+			productName = gaga;
+			productReference = F088390D1F0CA09800F4E128 /* gaga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F08839251F0CA09900F4E128 /* gagaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F088393D1F0CA09900F4E128 /* Build configuration list for PBXNativeTarget "gagaTests" */;
+			buildPhases = (
+				F08839221F0CA09900F4E128 /* Sources */,
+				F08839231F0CA09900F4E128 /* Frameworks */,
+				F08839241F0CA09900F4E128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08839281F0CA09900F4E128 /* PBXTargetDependency */,
+			);
+			name = gagaTests;
+			productName = gagaTests;
+			productReference = F08839261F0CA09900F4E128 /* gagaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F08839301F0CA09900F4E128 /* gagaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08839401F0CA09900F4E128 /* Build configuration list for PBXNativeTarget "gagaUITests" */;
+			buildPhases = (
+				F088392D1F0CA09900F4E128 /* Sources */,
+				F088392E1F0CA09900F4E128 /* Frameworks */,
+				F088392F1F0CA09900F4E128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08839331F0CA09900F4E128 /* PBXTargetDependency */,
+			);
+			name = gagaUITests;
+			productName = gagaUITests;
+			productReference = F08839311F0CA09900F4E128 /* gagaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08839051F0CA09800F4E128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zhuge_Su;
+				TargetAttributes = {
+					F088390C1F0CA09800F4E128 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = MZFL927F54;
+						ProvisioningStyle = Automatic;
+					};
+					F08839251F0CA09900F4E128 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F088390C1F0CA09800F4E128;
+					};
+					F08839301F0CA09900F4E128 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F088390C1F0CA09800F4E128;
+					};
+				};
+			};
+			buildConfigurationList = F08839081F0CA09800F4E128 /* Build configuration list for PBXProject "gaga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08839041F0CA09800F4E128;
+			productRefGroup = F088390E1F0CA09800F4E128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F088390C1F0CA09800F4E128 /* gaga */,
+				F08839251F0CA09900F4E128 /* gagaTests */,
+				F08839301F0CA09900F4E128 /* gagaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F088390B1F0CA09800F4E128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08839201F0CA09900F4E128 /* LaunchScreen.storyboard in Resources */,
+				F088391D1F0CA09900F4E128 /* Assets.xcassets in Resources */,
+				F088391B1F0CA09900F4E128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08839241F0CA09900F4E128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F088392F1F0CA09900F4E128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08839091F0CA09800F4E128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08839181F0CA09900F4E128 /* ViewController.m in Sources */,
+				F08839151F0CA09900F4E128 /* AppDelegate.m in Sources */,
+				F00C9D8D1F0DD40E00701376 /* MSURuntimeTools.m in Sources */,
+				F08839121F0CA09900F4E128 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08839221F0CA09900F4E128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F088392B1F0CA09900F4E128 /* gagaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F088392D1F0CA09900F4E128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08839361F0CA09900F4E128 /* gagaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F08839281F0CA09900F4E128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F088390C1F0CA09800F4E128 /* gaga */;
+			targetProxy = F08839271F0CA09900F4E128 /* PBXContainerItemProxy */;
+		};
+		F08839331F0CA09900F4E128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F088390C1F0CA09800F4E128 /* gaga */;
+			targetProxy = F08839321F0CA09900F4E128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F08839191F0CA09900F4E128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F088391A1F0CA09900F4E128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F088391E1F0CA09900F4E128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F088391F1F0CA09900F4E128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F08839381F0CA09900F4E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F08839391F0CA09900F4E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F088393B1F0CA09900F4E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZFL927F54;
+				INFOPLIST_FILE = gaga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mn-Su.gaga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F088393C1F0CA09900F4E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZFL927F54;
+				INFOPLIST_FILE = gaga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mn-Su.gaga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F088393E1F0CA09900F4E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gagaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mn-Su.gagaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaga.app/gaga";
+			};
+			name = Debug;
+		};
+		F088393F1F0CA09900F4E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gagaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mn-Su.gagaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaga.app/gaga";
+			};
+			name = Release;
+		};
+		F08839411F0CA09900F4E128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gagaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mn-Su.gagaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gaga;
+			};
+			name = Debug;
+		};
+		F08839421F0CA09900F4E128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gagaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mn-Su.gagaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = gaga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08839081F0CA09800F4E128 /* Build configuration list for PBXProject "gaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08839381F0CA09900F4E128 /* Debug */,
+				F08839391F0CA09900F4E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F088393A1F0CA09900F4E128 /* Build configuration list for PBXNativeTarget "gaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F088393B1F0CA09900F4E128 /* Debug */,
+				F088393C1F0CA09900F4E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F088393D1F0CA09900F4E128 /* Build configuration list for PBXNativeTarget "gagaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F088393E1F0CA09900F4E128 /* Debug */,
+				F088393F1F0CA09900F4E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08839401F0CA09900F4E128 /* Build configuration list for PBXNativeTarget "gagaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08839411F0CA09900F4E128 /* Debug */,
+				F08839421F0CA09900F4E128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08839051F0CA09800F4E128 /* Project object */;
+}
